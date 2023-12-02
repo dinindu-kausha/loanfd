@@ -1,0 +1,229 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+div,
+ul,
+li,
+label,
+input {
+    color: #333333;
+}
+
+.gs-container {
+    max-width: 992px;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.gs-top-breadcrumb img {
+    width: 100%;
+    padding-top: 16px;
+}
+
+
+.gs-top-tab img {
+    width: 100%;
+    padding: 16px;
+
+}
+
+.gs-banner-card {
+    position: relative;
+    width: 100%;
+    min-height: 33vw;
+    max-height: 250px !important;
+    background-image: url("../assets/img/roundup-banner-bg.png");
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    /* box-shadow: 0px 5px 18px -11px #00000087; */
+    align-items: center;
+    
+}
+@media screen and (min-width:1000px) {
+    .gs-banner-card{
+        min-height: 350px !important;
+
+    }
+}
+.gs-banner-card-fd {
+    background-image: url("../assets/img/roundup-banner-loan-against-fd.png") !important;
+}
+.gs-banner-card div {
+    /* display: block; */
+    max-height: 750px;
+    width: 100%;
+}
+.gs-banner-card h1 {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: clamp(0.5rem, 0.0714rem + 2.2857vw, 1.5rem);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 15px;
+    margin-bottom: 0 !important;
+    max-width: 50%;
+}
+.gs-banner-card h2 {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: clamp(0.75rem, -0.1071rem + 4.5714vw, 2.75rem);
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 50%;
+    padding-left: 15px;
+    margin-bottom: 0;
+    max-width: 55%;
+
+}
+
+.gs-banner-card img {
+    border-radius: 9px;
+}
+
+.gs-content {
+    padding-top: 16px;
+    padding: 15px;
+}
+
+.gs-content h3 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 16px;
+
+}
+
+.gs-content ol {
+    padding-left: 20px;
+}
+
+.gs-content li {
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: justify;
+    margin-bottom: 16px;
+
+}
+
+.gs-butotn-main a {
+    padding: 12px;
+    border-radius: 38px;
+    background: #252525;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    display: block;
+
+}
+
+/*.gs-cont-inner-wrapper {*/
+/*    height: 92vh;*/
+/*    overflow-y: auto;*/
+/*}*/
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.pr-0 {
+    padding-right: 0;
+}
+
+.gs-terms-action {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 30px;
+}
+
+.gs-terms-action label {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.gs-terms-action input {
+    width: 24px;
+    height: 24px;
+    margin-top: 1px;
+    accent-color: #F15A22;
+    border-radius: 0;
+
+}
+
+.gs-terms-bottom-wrapper {
+    background: #F7F7F7;
+    padding: 15px;
+    max-width: 992px;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/*.gs-terms-main-wrapper {*/
+/*    height: 81vh;*/
+/*}*/
+
+.gs-terms-main-wrapper .gs-content h3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.gs-terms-main-wrapper .gs-content ul {
+    padding-left: 20px;
+}
+
+.gs-content ol {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.gs-content ol li:before {
+    content: counter(myCounter) ") ";
+}
+
+.gs-content ol li {
+    counter-increment: myCounter;
+}
+.gs-content ol li{
+    display: flex;
+}
+.gs-content ol li div {
+    padding-left: 5px;
+}
